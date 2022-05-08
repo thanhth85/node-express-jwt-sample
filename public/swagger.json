@@ -1,0 +1,29 @@
+{
+	"components": {
+		"examples": {},
+		"headers": {},
+		"parameters": {},
+		"requestBodies": {},
+		"responses": {},
+		"schemas": {},
+		"securitySchemes": {}
+	},
+	"info": {
+		"title": "express-jwt-sample",
+		"version": "1.0.0",
+		"description": "example UT - Thanh - NodeJS Developer - May 2022",
+		"license": {
+			"name": "ISC"
+		},
+		"contact": {
+			"name": "Thanhth"
+		}
+	},
+	"openapi": "3.0.0",
+	"paths": {},
+	"servers": [
+		{
+			"url": "/"
+		}
+	]
+}
