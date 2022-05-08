@@ -1,15 +1,15 @@
 # Node Express JWT Authentication / Authorization - example UT - Thanh - NodeJS Developer - May 2022
 
 An example project implementing JWT authentication and role based authorization.
-1.) Create an API where the administration can sign up an account 
-2.) Create an API where the administrator can sign in an account 
-3.) Create an API where the customer can sign in an account
-4.) Create an API where the customer can sign up an account
-5.) Create a middleware Authorization header that can determine if the client accessing the API is an admin or a user
-6.) Create an API where it returns hello world using authorization header with JWT Token and this API can only be access by admin
-7.) Create an API where it returns hello world using authorization header with JWT Token and this API can only be access by the customer
-8.) Database must use a sqlite locally when run
-9.) Document your API using swagger
+- Create an API where the administration can sign up an account 
+- Create an API where the administrator can sign in an account 
+- Create an API where the customer can sign in an account
+- Create an API where the customer can sign up an account
+- Create a middleware Authorization header that can determine if the client accessing the API is an admin or a user
+- Create an API where it returns hello world using authorization header with JWT Token and this API can only be access by admin
+- Create an API where it returns hello world using authorization header with JWT Token and this API can only be access by the customer
+- Database must use a sqlite locally when run
+- Document your API using swagger
 
 ### Demo Setup
 1. Clone the repository with `git clone https://github.com/thanhth85/node-express-jwt-sample.git`
@@ -45,7 +45,7 @@ An example project implementing JWT authentication and role based authorization.
 | `hasAnyRole([role, role])` | Ensures the authenticated user has ANY of the appropriate roles |
 | `hasAllRoles([role, role])` | Ensures the authenticated user has ALL the appropriate roles |
 
-### Doc Swaager
+### Doc Swaager ( integration)
 [Doc Swaager](http://localhost:3000/docs/): http://localhost:3000/docs/
 
 # Testing:
